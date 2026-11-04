@@ -1,5 +1,5 @@
 import time
-from gpiozero import LED, MotionSensor
+from gpiozero import LED, MotionSensor, AngularServo
 
 Motion = MotionSensor(23)
 try:
