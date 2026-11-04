@@ -1,7 +1,7 @@
 # Automatic Security System — ECE 350 Fall 2026
 
 **Team Name:** Mvidia (Tom Chen, Jake Yurasko)  
-**Course:** ECE-350 Interactive Embedded Systems Design Project  
+**Course:** ECE-350 Embedded systems and Hardware Interfaces
 
 ---
 
