@@ -63,23 +63,9 @@ Aligned with the ECE 350 Value Creation & Entrepreneurial Mindset framework (Cur
 | **Resistors, Jumper Wires & Breadboard** | Assorted | Current limiting, circuit prototyping, and GPIO interfacing |
 
 ---
-
-## 4. Repository Structure
-
-```text
-ECE350-embeddedSystems-HardwareInterface-Project/
-├── Project-Details/
-│   ├── ECE350 Project Proposal.pdf      # Team Mvidia project proposal & BOM
-│   ├── ProjectDescription_FA26.pdf      # ECE-350 Fall 2026 course guidelines & rubric
-│   ├── Slide_Deck_Value_Creation.pdf    # Value creation presentation slides
-│   ├── Value_Creation_ECE350.pdf        # KEEN / Entrepreneurial Mindset documentation
-│   └── README.md                        # Project documentation
-└── src/                                 # Python source code & hardware control scripts
-```
-
 ---
 
-## 5. Software & Attribution Guidelines
+## 4. Software & Attribution Guidelines
 
 Per ECE-350 Fall 2026 project requirements:
 * **Core Libraries:** Built using Python (`gpiozero`, Adeept lab kit modules, and LCD driver libraries).
@@ -97,7 +83,7 @@ python3 main.py
 
 ---
 
-## 6. Course Milestones & Evaluation Breakdown
+## 5. Course Milestones & Evaluation Breakdown
 
 * **Proposal & Team Signup:** October 21, 2026
 * **Showcase Presentations (The MIX):** Wednesday, December 2, 2026 (Group 1) / Monday, December 7, 2026 (Group 2)
