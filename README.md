@@ -71,15 +71,6 @@ Per ECE-350 Fall 2026 project requirements:
 * **Core Libraries:** Built using Python (`gpiozero`, Adeept lab kit modules, and LCD driver libraries).
 * **Code Attribution:** All external libraries, Adeept sample code, `gpiozero` documentation snippets, instructor-provided code, and Generative AI (GenAI) assisted code segments are explicitly documented via inline Python comments with source links.
 
-### Running the Prototype
-```bash
-# Clone the repository
-git clone [https://github.com/Xiao-XC/ECE350-embeddedSystems-HardwareInterface-Project.git](https://github.com/Xiao-XC/ECE350-embeddedSystems-HardwareInterface-Project.git)
-cd ECE350-embeddedSystems-HardwareInterface-Project
-
-# Execute the security system script on Raspberry Pi
-python3 main.py
-```
 
 ---
 
