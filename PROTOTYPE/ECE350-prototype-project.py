@@ -16,9 +16,8 @@ pin = GPIO_PIN,
     max_pulse_width = MAX_PULSE
 )
 
+angles = [0,20, 40, 60, 80,100, 120, 140, 160, 180]
 Blink = 0
-
-
 
 Motion = MotionSensor(23)
 try:
@@ -39,6 +38,9 @@ try:
             red.off()
             buzzer.off()
             servo.angle = 180
+            for angle in angles:
+                    servo.angle = angle
+                    time.sleep(2)
             Blink +=1
             print("MOTION DETECTED!")
         if Blink == 3: 
