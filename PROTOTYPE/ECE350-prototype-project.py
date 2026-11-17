@@ -28,6 +28,7 @@ try:
             green.on()
             red.off()
             yellow.off()
+            buzzer.off()
             servo.angle = 0
         if Motion.motion_detected:
             green.off()
@@ -36,6 +37,7 @@ try:
             time.sleep(1)
             yellow.off()
             red.off()
+            buzzer.off()
             servo.angle = 180
             Blink +=1
             print("MOTION DETECTED!")
