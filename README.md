@@ -12,6 +12,8 @@
 ### Project Summary
 The **Automatic Security System** is an interactive, Raspberry Pi-based property security prototype designed to detect unauthorized entry into restricted areas and deter intrusions. Using a pyroelectric infrared (PIR) motion sensor, the system continuously monitors a designated perimeter. When motion is detected within range, the system transitions from an armed standby state (**Green LED**) to a grace-period warning state (**Yellow LED**), displaying a live countdown timer on an **LCD screen** so authorized individuals have time to disarm the system. If the countdown reaches zero without being disarmed, the system triggers an active alarm state—flashing a **Red LED** and sounding a **passive buzzer** to alert nearby residents and security personnel.
 
+[Camera with facial detection: when detects will set off leds and buzzers after a countdown. Has a countdown within that time there is a deactivate stage where an email will be sent with a code that can be input into a website. Activate, deactivate, and countdown will be displayed on an lcd]
+
 ### Stakeholders & Value Creation
 Aligned with the ECE 350 Value Creation & Entrepreneurial Mindset framework (Curiosity, Connections, Creating Value), this project delivers multi-dimensional value:
 
