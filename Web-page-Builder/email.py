@@ -5,8 +5,8 @@ email_user = "mvidiacode@gmail.com"
 email_password = "nryx lxdy mjdh fget"
 email_send = "mvidiacode@gmail.com" 
 
-subject = "test 2" 
-body = "just testing again" 
+subject = "subject" 
+body = "body" 
 
 msg = EmailMessage()
 msg["From"] = email_user
